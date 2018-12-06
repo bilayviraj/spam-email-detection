@@ -1,0 +1,3 @@
+The given code for C4.5 may generate <b>OutOfMemoryError</b> on some systems as the decision tree generated in C4.5 is too large for these many emails and thus rendering the code useless.</br>
+Therefore an alternative method is provided where the dataset is divided into 4 parts, so that the compiler may handle such large dataset.</br>
+The alternate code and dataset is provided in the folder named <b>C45-alt</b>. Just access the folder and replace the new code with original code i.e. the <b>Methods</b> folders in <b>src</b> and the extract the <b>datasets.zip</b> in the main folder and you are good to go.(Note: here we need <b>datasets</b> folder in the main folder and not training and testing.) 
